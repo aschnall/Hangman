@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hangman</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id='start'>
+		<h1 id='heading'>Hangman</h1>
+		<br>
+		<button class='begin'>Start Game</button>
+	</div>
+	<div id='game'>
+		<div id='title'>
+			<h2>Hangman</h2>
+		</div>
+		<div class='word'>
+			<ul id='tile'>
+			</ul>
+		</div>
+		<div id='keyboard'>
+			<div class='key-row'>
+				<button>q</button><button>w</button><button>e</button><button>r</button><button>t</button><button>y</button><button>u</button><button>i</button><button>o</button><button>p</button>
+			</div>
+			<div class='key-row'>
+				<button>a</button><button>s</button><button>d</button><button>f</button><button>g</button><button>h</button><button>j</button><button>k</button><button>l</button>
+			</div>
+			<div class='key-row'>
+				<button>z</button><button>x</button><button>c</button><button>v</button><button>b</button><button>n</button><button>m</button>
+			</div>
+		</div>
+		<div id='lives'>
+			<p></p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
